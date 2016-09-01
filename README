@@ -1,3 +1,11 @@
-1.  将附件中的文件拷贝到本机同一目录下（本机装有JDK环境）
+
+环境要求：本机装有JDK
+
+编译：javac CheckSumTools.java
+打包命令：jar -cvfm CheckSumTools.jar manifest.mf CheckSumTools.class
+运行：java -jar CheckSumTools.jar
+
+
+1.  CheckSumTools.jar和CheckSumTools.bat文件拷贝到本机同一目录下
 2.  执行bat文件
 3.  输入要算校验和的内容，按回车则返回结果。输入q(不区分大小写)按回车则退出。
