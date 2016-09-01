@@ -6,7 +6,6 @@ class CheckSumTools{
 	public static void main(String[] args) throws IOException{
 		
 		BufferedReader strin=new BufferedReader(new InputStreamReader(System.in));
-		//String baowen10="01 02 03 04 05 06 07 09 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 03 02 02 01 3D 00 00 00 0A 00 00 00 02 00 00 00 DF 07 04 0A 0F 00 0B FF DF 07 04 0A 0F 01 2C FF";
 		while(true){
 			try {
 					System.out.println("please input:");
